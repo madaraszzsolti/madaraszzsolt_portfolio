@@ -1,0 +1,149 @@
+
+body{
+	background-image: url("kepek/hatter1.jpg");
+
+	color:white;
+}
+h1{
+		font-family: "Lucida Console";
+	  position: absolute;
+  top: 35%;
+  width: 99%;
+  text-align: center;
+  font-size: 72px;
+	}
+
+h2{
+
+		font-family: "Lucida Console";
+		font-size: 24px;
+			  position: absolute;
+  top: 55%;
+  width: 99%;
+  text-align: center;
+}
+
+div.insta{
+		position: absolute;
+  bottom: 0;
+}
+
+a{
+font size: 24px; font-family: "Lucida Console";
+}
+a:link {
+  color: white;
+  text-decoration: none;
+
+  font-family: "Lucida Console";
+}
+a:visited {
+color: white;
+
+font-family: "Lucida Console";
+}
+a:hover {
+	color: brown;
+	font size: 120%;
+	font-family: "Lucida Console";
+}
+a:active{
+	color:hotpink;
+
+	font-family: "Lucida Console";
+}
+li {
+  display: inline;
+  padding: 50px;
+}
+div.rolam {
+	position: relative;
+   width: 30%;
+  border: 15px solid brown;
+  padding: 50px;
+text-align: left;
+  margin-top: -20%;
+  margin-left: 50%;
+}
+h3{
+	font-family: "Lucida Console";
+	font size: 60px;
+}
+div.kep{
+	position: relative;
+	  width: 400px;
+  border: 15px solid brown;
+  padding: 25px;
+  margin: 20px;
+    margin-top: 7%;
+  margin-left: 15%;
+}
+div.doku{
+	position: absolute;
+	margin-top:80px;
+	margin-left: 200px;
+}
+table.dokumentacio{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+}
+.doboz {
+  position: relative;
+    margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.kepek {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.eltunes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.doboz:hover .eltunes {
+  opacity: 1;
+}
+.kepszoveg {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Lucida Console";
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+table.galeria{
+ width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+ text-align: center;
+  margin-top: 7%;
+}
+.keret{
+	position: relative;
+	  border: 15px solid brown;
+  padding: 10px;
+  margin: 10px;
+}
+.aktiv{
+	border: 5px solid brown;
+}
